@@ -13,7 +13,7 @@ class QuestionGenerator {
   static final File genReadmeFile = File(path.join('.', 'README.md'));
 
   // Github organization name and repository names for generating edit links.
-  static const String kGithubOrg = 'thisissandipp';
+  static const String kGithubOrg = 'justsandip';
   static const String kGithubRepo = 'flutter-interview-questions';
 
   /// Generates formatted content for each question, including edit links.
@@ -133,7 +133,7 @@ ${item.formatter.content}
     return questionItems;
   }
 
-  /// Reads and parses question metadata from `metadata.json` files 
+  /// Reads and parses question metadata from `metadata.json` files
   /// inside the `questions/` directory.
   Future<List<QuestionMetadata>> readQuestionsMetadata() async {
     final List<QuestionMetadata> metadata = [];
@@ -173,7 +173,7 @@ ${item.formatter.content}
   /// Generates and updates the README with:
   /// - Table of Contents
   /// - All questions with their formatted content
-  /// - Difficulty-specific question lists 
+  /// - Difficulty-specific question lists
   Future<void> generateReadmeContents() async {
     final questionsMetadata = await readQuestionsMetadata();
     questionsMetadata.sort((a, b) => a.rank - b.rank);

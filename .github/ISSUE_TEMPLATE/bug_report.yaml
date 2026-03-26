@@ -3,7 +3,7 @@ description: Create a report to help us improve
 title: "fix: "
 labels: [bug]
 assignees:
-  - thisissandipp
+  - justsandip
 body:
   - type: markdown
     attributes:
@@ -20,7 +20,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/thisissandipp/flutter-interview-questions/blob/main/CODE_OF_CONDUCT.md).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/justsandip/flutter-interview-questions/blob/main/CODE_OF_CONDUCT.md).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
