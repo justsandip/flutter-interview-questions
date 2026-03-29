@@ -1,6 +1,13 @@
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/256/flutter.png">
   <h1>Flutter Interview Questions</h1>
+  <div>
+    <a href="https://github.com/justsandip/flutter-interview-questions/actions/workflows/gen_content.yaml"><img src="https://img.shields.io/github/actions/workflow/status/justsandip/flutter-interview-questions/gen_content.yaml?label=actions" alt="Build Status" /></a>
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT" /></a>
+    <a href="https://github.com/justsandip/flutter-interview-questions"><img src="https://img.shields.io/github/forks/justsandip/flutter-interview-questions?style=flat&logo=github" alt="Fork on Github" /></a>
+    <a href="https://github.com/justsandip/flutter-interview-questions"><img src="https://img.shields.io/github/stars/justsandip/flutter-interview-questions.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github" /></a>
+    <a href="https://github.com/justsandip/flutter-interview-questions"><img src="https://img.shields.io/github/last-commit/justsandip/flutter-interview-questions?style=flat&color=teal" alt="Last Commit" /></a>
+  </div>
 </div>
 
 ## Table of Contents
