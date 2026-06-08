@@ -7,7 +7,27 @@ on:
     branches: ["main"]
 
 jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 Git Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: 🎯 Setup Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: 📦 Install Dependencies
+        run: dart pub get --no-example
+
+      - name: ⚙️ Run Scripts (dry run)
+        run: dart run
+
   gen-content:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: 📚 Git Checkout
